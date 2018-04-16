@@ -1,5 +1,7 @@
 package Tests;
 
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,17 +13,22 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 
 public class InformacoesUsuarioTest {
-    @Test
-    public void testAdicionarUmaInformacaoAdicionalDoUsuario() {
+    private WebDriver navegador;
+
+    @Before
+    public void setUp() {
         //Abrindo o navegador Chrome
         System.setProperty("webdriver.chrome.driver","C:\\Users\\Cintia Brito\\drivers\\chromedriver.exe");
-        WebDriver navegador = new ChromeDriver();
+        navegador = new ChromeDriver();
         navegador.manage().window().maximize(); //janela do chrome maximizada
         navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         //Navegando para pagina do Taskit
         navegador.get("http://juliodelima.com.br/taskit");
+    }
 
+    @Test
+    public void testAdicionarUmaInformacaoAdicionalDoUsuario() {
         //Clicar no link que possui o texto "Sign in"
         navegador.findElement(By.linkText("Sign in")).click();
 
@@ -40,14 +47,17 @@ public class InformacoesUsuarioTest {
         navegador.findElement(By.linkText("SIGN IN")).click();
 
         //Validar que dentro do elemento  com a class "me" está o texto "Hi, Julio"
-        WebDriver me = navegador.findElement(By.className("me"));
-        String textoNoElementoMe = ((WebElement) me).getText();
+        WebElement me = navegador.findElement(By.className("me"));
+        String textoNoElementoMe = me.getTagName();
         assertEquals( "Hi, Julio", textoNoElementoMe);
-
-        //Fechar o navegador
-        navegador.quit();
 
         //Validação (não sera mais usado essa validação)
         //assertEquals( 1, 1);
+    }
+
+    @After
+    public void tearDown() {
+        //Fechar o navegador
+        navegador.quit();
     }
 }
