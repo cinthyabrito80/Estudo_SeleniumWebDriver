@@ -36,7 +36,7 @@ public class InformacoesUsuarioTest {
         //Identificando o fomulario de login
         WebElement formularioSignInBox = navegador.findElement(By.id("signinbox"));
 
-        //Digitar no campo com NAME "Login" que está dentro do formulario do id "signinbox" o texto "Julio001"
+        //Digitar no campo com NAME "Login" que está dentro do formulario do id "signinbox" o texto "roberta001"
         formularioSignInBox.findElement(By.name("login")).sendKeys("roberta001");
 
         //Clicar no campo com NAME "password" que está dentro do formulario do id "signinbox" (ignorar esse comentario apenas um exemplo)
