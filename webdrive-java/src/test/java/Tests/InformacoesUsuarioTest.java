@@ -20,11 +20,11 @@ public class InformacoesUsuarioTest {
         //Abrindo o navegador Chrome
         System.setProperty("webdriver.chrome.driver","C:\\Users\\Cintia Brito\\drivers\\chromedriver.exe");
         navegador = new ChromeDriver();
-        navegador.manage().window().maximize(); //janela do chrome maximizada
-        navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        //navegador.manage().window().maximize(); //janela do chrome maximizada
+        navegador.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         //Navegando para pagina do Taskit
-        navegador.get("http://juliodelima.com.br/taskit");
+        navegador.get("http://www.juliodelima.com.br/taskit");
     }
 
     @Test
@@ -34,10 +34,10 @@ public class InformacoesUsuarioTest {
 
         //Clicar no campo com NAME "Login" que está dentro do formulario do id "signinbox" (ignorar esse comentario apenas um exemplo)
         //Identificando o fomulario de login
-        WebDriver formularioSignInBox = navegador.findElement(By.id("signinbox"));
+        WebElement formularioSignInBox = navegador.findElement(By.id("signinbox"));
 
         //Digitar no campo com NAME "Login" que está dentro do formulario do id "signinbox" o texto "Julio001"
-        formularioSignInBox.findElement(By.name("login")).sendKeys("Julio001");
+        formularioSignInBox.findElement(By.name("login")).sendKeys("roberta001");
 
         //Clicar no campo com NAME "password" que está dentro do formulario do id "signinbox" (ignorar esse comentario apenas um exemplo)
         //Digitar no campo com NAME "password" que está dentro do formulario do id "signinbox" o texto "123456"
@@ -46,10 +46,10 @@ public class InformacoesUsuarioTest {
         //Clicar no link com o texto "SIGN IN"
         navegador.findElement(By.linkText("SIGN IN")).click();
 
-        //Validar que dentro do elemento  com a class "me" está o texto "Hi, Julio"
+        //Validar que esta dentro do elemento  com a class "me" está o texto "Hi, Roberta"
         WebElement me = navegador.findElement(By.className("me"));
-        String textoNoElementoMe = me.getTagName();
-        assertEquals( "Hi, Julio", textoNoElementoMe);
+        String textoNoElementoMe = me.getText();
+        assertEquals( "Hi, Roberta", textoNoElementoMe);
 
         //Validação (não sera mais usado essa validação)
         //assertEquals( 1, 1);

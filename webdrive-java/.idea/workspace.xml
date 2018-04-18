@@ -28,8 +28,8 @@
       <file leaf-file-name="InformacoesUsuarioTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/InformacoesUsuarioTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+            <state relative-caret-position="99">
+              <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InformacoesUsuarioTest">
+  <component name="RunManager" selected="JUnit.InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -215,8 +215,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InformacoesUsuarioTest" />
         <item itemvalue="JUnit.InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" />
+        <item itemvalue="JUnit.InformacoesUsuarioTest" />
       </list>
     </recent_temporary>
   </component>
@@ -234,29 +234,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.11 at 14h 03m 33s.xml">
+    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.17 at 09h 52m 11s.xml">
       <configuration name="InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.11 at 14h 14m 31s.xml">
+    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.17 at 09h 52m 59s.xml">
       <configuration name="InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.11 at 14h 14m 56s.xml">
+    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.17 at 10h 02m 18s.xml">
       <configuration name="InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.11 at 14h 18m 01s.xml">
+    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.17 at 15h 41m 42s.xml">
       <configuration name="InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.11 at 14h 32m 47s.xml">
+    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.17 at 21h 51m 40s.xml">
       <configuration name="InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.11 at 14h 37m 23s.xml">
+    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.18 at 10h 02m 36s.xml">
       <configuration name="InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.11 at 14h 39m 42s.xml">
+    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.18 at 10h 14m 33s.xml">
       <configuration name="InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InformacoesUsuarioTest - 2018.04.16 at 11h 11m 42s.xml">
-      <configuration name="InformacoesUsuarioTest" configurationId="JUnit" />
+    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.18 at 10h 15m 29s.xml">
+      <configuration name="InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.18 at 10h 19m 26s.xml">
+      <configuration name="InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformacoesUsuarioTest_testAdicionarUmaInformacaoAdicionalDoUsuario - 2018.04.18 at 10h 29m 54s.xml">
+      <configuration name="InformacoesUsuarioTest.testAdicionarUmaInformacaoAdicionalDoUsuario" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -265,14 +271,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32689655" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32689655" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16551724" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42206895" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -319,10 +325,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/InformacoesUsuarioTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+        <state relative-caret-position="99">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
